@@ -1,0 +1,55 @@
+body{
+	background-image: url(scarypumpkins.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.calendar{
+	margin: auto;
+	max-width: 800px;
+	font-family: elephant;
+	font-weight: bold;
+	color: black;
+	margin: 10% 20%;
+}
+
+.month{
+text-align: center;
+background: #F6B26B;
+font-size: 80px;
+letter-spacing: 1px;
+color: black;
+border: 2px solid orange;
+opacity: 0.75;	
+}
+
+table, th, td{
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	font-size: 27px;
+	border-collapse: collapse;
+	border: 5px solid black;
+	font-family: verdana;
+	opacity: 0.9;
+}
+
+tr, th, td{
+	padding: 15px;
+}
+
+th{
+background:#1D0E00;
+color: #FFE599;
+font-family: courier new;	
+}
+
+td{
+	background:#4D2600;
+	color: orange;
+}
+
+td:hover{
+	background:green;
+}
